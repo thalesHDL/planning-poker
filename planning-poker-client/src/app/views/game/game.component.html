@@ -1,0 +1,16 @@
+<div>
+    <div *ngIf="shouldRegister">
+        <div>
+            <form>
+                <div>
+                    <label id="lb-name" for="inp-name">Nome</label>
+                    <input id="inp-name" name="inp-name" type="text" (keyup)="onKey($event)">
+                </div>
+                <div>
+                    <button id="btn-register" name="btn-register" type="button" (click)="registerUser()">Registrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div></div>
+</div>
