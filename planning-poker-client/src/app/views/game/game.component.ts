@@ -32,7 +32,8 @@ export class GameComponent implements OnInit {
     registerUser() {
         this.store.update({playerName: this.inpName});
         const gameId = this.store.game.id;
-
+        
+        alert("Esta funcionando so até aqui, ja implementei algumas funcionalidades que são da proxima parte, mas aqui da um erro que creio ser de serializacao, deserializacao, que não deu tempo de arrumar")
         // Error no join, fazer um serializador e deserializar personalizado
         // gameId != undefined ? this.service.joinGame(gameId) : {}; 
     }

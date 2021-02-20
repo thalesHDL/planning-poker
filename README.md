@@ -8,8 +8,10 @@ Planning Poker system with .Net Core 3.1 and Angular
 `npm start`
 
 ## Server
+#### Doker
 `cd /docker`
 `docker-compose up -d`
+#### .Net Core
 `cd /PlanningPokerServer`
 `dotnet restore`
 `dotnet build`
